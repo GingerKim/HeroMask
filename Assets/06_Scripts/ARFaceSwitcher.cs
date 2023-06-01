@@ -16,7 +16,7 @@ public class ARFaceSwitcher : MonoBehaviour
 
     public void UpdateFaceMaterial(Material material)
     {
-        currentMaterial= material;
+        currentMaterial = material;
     }
 
     // Update is called once per frame
@@ -26,5 +26,6 @@ public class ARFaceSwitcher : MonoBehaviour
         {
             face.GetComponent<MeshRenderer>().material = currentMaterial;
         }
+        
     }
 }
