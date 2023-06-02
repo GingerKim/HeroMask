@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/05_Scenes/FaceMask.unity
-    guid: 9e8af45629fa5e341ac313e4224a7f07
+    path: Assets/05_Scenes/TitleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/05_Scenes/DC.unity
+    guid: 4d636f62fc3ef4243be219601c5017bb
+  - enabled: 1
+    path: Assets/05_Scenes/Marvel.unity
+    guid: bc97f5ad32524dd44aab595c1c4bf5ae
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c895983df4b00b847bfb8a6dbcbc5440, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5b7e008ea4b25e74ab62502a1d8368f6, type: 2}
